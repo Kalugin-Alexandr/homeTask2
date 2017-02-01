@@ -1,0 +1,26 @@
+{
+  "name": "koa2_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-polyfill": "^6.22.0",
+    "co": "^4.6.0",
+    "config": "^1.24.0",
+    "koa": "^2.0.0",
+    "koa-body": "^1.6.0",
+    "koa-bodyparser": "^3.2.0",
+    "koa-controller": "^1.1.0",
+    "koa-convert": "^1.2.0",
+    "koa-router": "^7.1.0",
+    "memcache-promise": "0.0.1",
+    "memcached": "^2.2.2",
+    "memcached-promisify": "^1.0.3",
+    "q": "^1.4.1"
+  }
+}
