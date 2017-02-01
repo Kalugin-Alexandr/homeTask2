@@ -21,7 +21,6 @@ module.exports = {
         })
     },
     add: (id,params) => {
-        console.log(id,params)
         return new Promise((resolve,reject)=> {
             memcached.set(id, params.count, 100, (err)=> {
                 if (err) reject(err);
@@ -31,11 +30,10 @@ module.exports = {
     },
 
     remove: (id) => {
-        console.log(id)
         return new Promise((resolve,reject)=>{
             memcached.del(id, (err,res)=>{
                 if(err) reject(err);
-                resolve({res});
+                resolve('Ok');
             })
         })
     }
